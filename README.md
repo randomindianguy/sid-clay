@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clay Pitch
 
-## Getting Started
+> *The smartest dumb pipe in B2B GTM. Your enrichment layer is more capable than you're treating it.*
 
-First, run the development server:
+A twelve-week internship thesis for Clay's *Product Manager, Enrichment & AI* role. About closing the marketplace-intelligence loop that feeds Functions — without new infrastructure and without taking control out of Ops's hands.
+
+**→ [Live artifact](https://clay-pitch.vercel.app)** *(deployment URL — replace once shipped)*
+
+---
+
+## What's inside
+
+A single deployed page. ~5 minute read.
+
+| § | Section | What it does |
+|---|---|---|
+| I | **Diagnosis** | Clay's enrichment layer is stateless by default. Lead exhibit: an 8-provider waterfall from my own Clay account — 34 billed lookups, 5 valid emails, 15% efficiency. Findymail wins everything that wins. |
+| I.5 | **Drafts that died** | The original MCP-centered version of this thesis. Killed for scope mismatch + parry-able linguistic teardown. |
+| II | **Prototype** | Two tabs. Dashboard: the proposed Ops surface (credit-pain hero, segment heatmap, recommendation timeline). Builder view: the cell-level reasoning substrate beneath it. |
+| III | **Hypothesis** | Per-Function/marketplace intelligence as the asset only Clay can build at scale. Four implementation theses under one governing principle: *Ops stays in control.* |
+| III.5 | **Assumptions & risks** | Who this is for. Five pains, ordered. Why Clay should care. Five risks named — including the cold-start fix and partner-arbitrage dynamic. |
+| IV | **Twelve weeks** | Diagnostic → Architecture → Ship → Validate. |
+| V | **Colophon** | About me. |
+
+---
+
+## Stack
+
+Next.js 16 · TypeScript · Tailwind v4 · Fraunces · Newsreader · JetBrains Mono · Vercel
+
+## Local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Sidharth Sundaram · [LinkedIn](https://www.linkedin.com/in/sidharthsundaram/) · sidharth.rama@gmail.com
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Mock data only. Not affiliated with Clay.*
