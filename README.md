@@ -4,7 +4,7 @@
 
 A twelve-week internship thesis for Clay's *Product Manager, Enrichment & AI* role. About closing the marketplace-intelligence loop that feeds Functions — without new infrastructure and without taking control out of Ops's hands.
 
-**→ [Live artifact](https://clay-pitch.vercel.app)** *(deployment URL — replace once shipped)*
+**→ [Live artifact](https://sid-clay.vercel.app/)** *(deployment URL — replace once shipped)*
 
 ---
 
